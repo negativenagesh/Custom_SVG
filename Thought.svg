@@ -23,5 +23,5 @@
   <rect width="495" height="195" fill="#141321" rx="10"/>
 
   <text x="25" y="50" class="header">DELETE FROM thoughts</text>
-  <text x="25" y="90" class="body">where type = "Negative" ;</text>
+  <text x="25" y="90" class="body">WHERE Type = "negative" ;</text>
 </svg>
