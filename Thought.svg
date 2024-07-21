@@ -1,14 +1,13 @@
 <svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .header {
+    .command-line {
       font: 700 24px 'Fira Code', 'Courier New', monospace;
-      fill: #00FF7F; /* Spring Green for text */
+      fill: #00FF00; /* Light Green text color for command prompt look */
       animation: fadeInAnimation 0.8s ease-in-out forwards;
     }
-    .body {
-      font: 400 24px 'Fira Code', 'Courier New', monospace;
-      fill: #00FF7F; /* Spring Green for text */
-      animation: fadeInAnimation 0.8s ease-in-out forwards;
+    .cursor {
+      font: 700 24px 'Fira Code', 'Courier New', monospace;
+      fill: #00FF00; /* Light Green text color for cursor */
     }
     @keyframes fadeInAnimation {
       from {
@@ -20,8 +19,13 @@
     }
   </style>
 
-  <rect width="495" height="195" fill="#1E1E1E" rx="10"/> <!-- Very Dark Gray background -->
+  <rect width="495" height="195" fill="#000000" rx="10"/> <!-- Black background for terminal look -->
 
-  <text x="25" y="60" class="header">🧹 DELETE FROM thoughts</text>
-  <text x="25" y="100" class="body">where type = "Negative" 🔍</text>
+  <!-- Command Line Text -->
+  <text x="20" y="60" class="command-line">C:\> 🧹 DELETE FROM thoughts</text>
+  <text x="20" y="100" class="command-line">C:\> WHERE Type = "negative" 🛠️</text>
+
+  <!-- Cursor -->
+  <text x="440" y="60" class="cursor">_</text>
+  <text x="440" y="100" class="cursor">_</text>
 </svg>
