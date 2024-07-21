@@ -1,0 +1,27 @@
+<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header {
+      font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+      fill: #FF4785;
+      animation: fadeInAnimation 0.8s ease-in-out forwards;
+    }
+    .body {
+      font: 400 18px 'Segoe UI', Ubuntu, Sans-Serif;
+      fill: #FF4785;
+      animation: fadeInAnimation 0.8s ease-in-out forwards;
+    }
+    @keyframes fadeInAnimation {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+
+  <rect width="495" height="195" fill="#141321" rx="10"/>
+
+  <text x="25" y="50" class="header">DELETE FROM thoughts</text>
+  <text x="25" y="90" class="body">where type = "Negative" ;</text>
+</svg>
